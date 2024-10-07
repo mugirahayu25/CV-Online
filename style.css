@@ -1,0 +1,46 @@
+.cv-container {
+  padding: 20px; /* Jarak di dalam kotak CV */
+  font-family: Arial, sans-serif;
+}
+
+.outer-box {
+  background-color: #f0f0f0; /* Warna latar belakang kotak luar */
+  padding: 20px; /* Jarak di dalam kotak luar */
+  margin: 20px auto; /* Mengatur margin atas dan bawah, dan memusatkan di tengah */
+  max-width: 840px; /* Menyesuaikan lebar maksimum kotak luar */
+  border: 2px solid #ccc; /* Garis batas kotak */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  border-radius: 10px; /* Sudut melengkung */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  width: 200px; /* Atur lebar foto profil */
+  height: 200px; /* Atur tinggi foto profil */
+  border-radius: 50%; /* Membuat foto profil menjadi bulat */
+  object-fit: cover; /* Memastikan gambar tetap proporsional */
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.skills-images {
+  display: flex; /* Mengatur gambar dalam baris */
+  gap: 10px; /* Menambahkan ruang antara gambar */
+  justify-content: center; /* Memusatkan gambar secara horizontal */
+}
+
+.skill-icon {
+  width: 50px; /* Mengatur lebar seragam untuk ikon */
+  height: auto; /* Mempertahankan rasio aspek */
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
